@@ -98,87 +98,87 @@ h1, h2, h3, h4, h5 {
 	border-radius: 10px;
 }
 
-.navbar nav a:hover {
-	background-color: white;
-	color: black;
-}
-
 .logo {
 	margin-top: 20px;
 	margin-left: 80px;
 }
 
 
+/* FIRST LARGE IMAGE TOP */
 
-/* SECTION ONE */
+.services-header-img {
+	width: 100%;
+	margin-bottom: 40px;
+} 
+
+
+
+
+/* SECTION 1 */
+
+p {
+	margin-bottom: 20px;
+}
+
 
 .section-one {
+	border-bottom: 2px solid black;
+	padding-bottom: 40px;
+}
+
+
+
+/* SECTIONS TWO, THREE, FOUR AND FIVE */
+
+.section-two, .section-three, .section-four, .section-five {
 	display: flex;
-	justify-content: center;
-	margin: 30px 0;
-}
-
-.section-one h1 {
-	font-size: 80px;
-}
-
-.title {
-	text-align: center;
-	padding: 30px 100px;
-	margin: 20px 80px;
-	line-height: 35px;
+	justify-content: space-around;
 }
 
 
+.section-two div, .section-three div, .section-four div {
+	border: 1px solid black;
+	padding: 20px;
+	background: #E9E8E8;
+}
 
-
-
-/* SECTION TWO */
+div {
+	margin: 20px;
+} */
 
 .content {
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	padding: 10px 0;
 }
 
-.section-two, .section-four {
-	display: flex;
-	justify-content: center;
-	padding: 40px 0;
-}
 
-.button {
-	text-decoration: none;
+
+.section-two a, .section-three a,.section-four a {
 	border: 1px solid black;
+	text-decoration: none;
 	padding: 5px 40px;
 	color: black;
-	margin-top: 50px;
+	border-radius: 10px;
+	background: white;
+	margin-top: 10px;
 }
 
-.section-two div, .section-four div {
-	margin-right: 20px;
+.section-five {
+	border-top: 2px solid black;
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 60px;
 }
 
-
-
-/* SECTION THREE */
-
-.middle-img {
-	width: 1000px;
+ul {
+	list-style-type: square;
+	list-style-position: inside;
+	line-height: 150%;
 }
-
-
-
-
-/* CONTACT */
-
-.contact {
-	padding: 40px 0;
-}
-
 
 
 
 /* FOOTER */
+
 
 footer p {
 	text-align: center;
